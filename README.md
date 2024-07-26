@@ -1,5 +1,7 @@
 # Jetson Nano JetBot AI Project
 
+![image](https://github.com/user-attachments/assets/39cbef82-282b-490e-a2ef-2249d76005c8)
+
 This repository contains the code and documentation for a JetBot AI project using the Nvidia Jetson Nano. The JetBot is programmed to park in specific spaces, detect numbers, and follow lines using a variety of sensors and a CSI camera.
 
 ## Table of Contents
@@ -33,7 +35,12 @@ This project, undertaken as part of the TOBB University of Economics and Technol
 ### Implementation Strategies
 
 1. **Color Masking:** Uses OpenCV2 to mask red and black lines, retrieving their pixel coordinates (x, y).
+![image](https://github.com/user-attachments/assets/5151a2ad-30da-4b8a-aa93-cc9e76dec7f4)
+
 2. **Object Detection:** Implements the YOLO NAS Object Detection (Accurate) model via Roboflow, an online tool for labeling and training models for object detection, classification, and segmentation.
+
+![image](https://github.com/user-attachments/assets/97cbab3f-72c5-4aeb-9fbf-6bc97e409f21)
+![image](https://github.com/user-attachments/assets/ab84c953-de18-4215-a049-9eb2468863fb)
 
 This project showcases the capabilities of the NVIDIA Jetson Nano in robotics and AI applications, emphasizing autonomous functionality and real-time image processing.
 
@@ -51,6 +58,9 @@ To facilitate the control and monitoring of the JetBot, we have built a web serv
 - **Real-Time Feedback:** Displays the total points deducted and the completion signal after the parking process.
 - **Responsive Design:** Ensures the web interface is accessible and functional across various devices, including desktops, tablets, and smartphones.
 
+![image](https://github.com/user-attachments/assets/d6929ae8-ec92-4a4e-a601-417f592a0f65)
+
+
 ## Hardware Requirements
 
 - Nvidia Jetson Nano (with Jetpack 4.5.1)
@@ -58,18 +68,15 @@ To facilitate the control and monitoring of the JetBot, we have built a web serv
 - CSI Camera
 - HC-SR04 Ultrasonic Sensor
 - TCS34725 Color Sensors
+- Arduino Nano
+  
+## Hardware Connection Diagram
+Below is the connection diagram of Arduino Nano, sensors and Jetson Nano.
+![image](https://github.com/user-attachments/assets/55442dcc-9d97-469e-a0e4-0e458843dfb2)
+
 
 ## Software Requirements
+Given requirements.txt contains required software packages and their versions.
 
-- Ubuntu 18.04 (for Jetson Nano)
-- Python 3.6.9
-- OpenCV 4.5.1
-- Roboflow (for model training and deployment)
+Will be continued...
 
-## Installation
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/your-username/jetbot-project.git
-   cd jetbot-project
