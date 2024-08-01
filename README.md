@@ -8,16 +8,10 @@ This repository contains the code and documentation for a JetBot AI project usin
 
 - [Introduction](#introduction)
 - [Hardware Requirements](#hardware-requirements)
+- [Hardware Connection Diagram](#hardware-connection-diagram)
 - [Software Requirements](#software-requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Overview](#project-overview)
-  - [Number Recognition](#number-recognition)
-  - [Line Following](#line-following)
-  - [Parking System](#parking-system)
-- [Custom Models](#custom-models)
-- [Contributing](#contributing)
-- [License](#license)
+
+
 
 ## Introduction
 
