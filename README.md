@@ -72,5 +72,4 @@ Below is the connection diagram of Arduino Nano, sensors and Jetson Nano.
 ## Software Requirements
 Given requirements.txt contains required software packages and their versions.
 
-Will be continued...
 
